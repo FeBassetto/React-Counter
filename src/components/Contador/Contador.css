@@ -1,0 +1,27 @@
+.Contador{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.Contador input{
+    margin-top: 1em;
+    font-size: 1.4rem;
+}
+
+.Contador button{
+    font-size: 1.4rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #0000ff;
+    color: #fff;
+    margin: 3em;
+}
+
+.Contador button:hover{
+    cursor: pointer;
+    background-color: #2727c9;
+}
